@@ -3,6 +3,11 @@ h1{
     font-size:80px;
     line-height: 1.5;
     color: #CCCCFF;
-    text-shadow: 4px 4px blue;
+    text-shadow: 8px 4px blue;
 
+}
+h2{
+    font-family:'Federant',cursive;
+    color:blue;
+   
 }
