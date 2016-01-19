@@ -6,3 +6,8 @@ h1{
     text-shadow: 4px 4px blue;
 
 }
+h2{
+    font-family:'Federant',cursive;
+    color:blue;
+    text-shadow: 8px 8px #CCCCFF;
+}
