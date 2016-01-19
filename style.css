@@ -1,3 +1,8 @@
 h1{
     font-family: 'Federant',cursive;
+    font-size:80px;
+    line-height: 1.5;
+    color: #CCCCFF;
+    text-shadow: 4px 4px blue;
+
 }
