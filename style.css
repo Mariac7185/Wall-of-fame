@@ -3,12 +3,13 @@ h1{
     font-size:80px;
     line-height: 1.5;
     color: #CCCCFF;
-    text-shadow: 8px 4px blue;
+    text-shadow: 8px 8px teal;
 
 }
 h2{
     font-family:'Federant',cursive;
-    color:blue;
+    color:pink;
+    
    
 }
 
@@ -31,4 +32,12 @@ div{
     border: 8px solid #CCCCFF;
     transform: skew(5deg, 4deg);
 
+}
+
+
+h1, h2{
+    height: relative;
+    background: teal; /* For browsers that do not support gradients */    
+
+    background: linear-gradient(to bottom right, teal , pink); /* Standard syntax (must be last) */
 }
