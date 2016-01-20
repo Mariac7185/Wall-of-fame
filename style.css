@@ -23,3 +23,12 @@ h1:hover {
     
     transform: rotate(360deg);
 }
+
+div{
+  width: 210px;
+    height: 100px;
+    background-color: Gray;
+    border: 8px solid #CCCCFF;
+    transform: skew(5deg, 4deg);
+
+}
