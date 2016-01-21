@@ -9,7 +9,7 @@ h1{
 h2{
     font-family:'Federant',cursive;
     color:pink;
-    letter-spacing:2px;
+    letter-spacing:;
 }
 h1:hover {
   
@@ -25,7 +25,7 @@ div{
     height: 100px;
     background-color: Gray;
     border: 8px solid #CCCCFF;
-    transform: skew(5deg, 3deg);
+    transform: skew(5deg, 4deg);
 }
 h1, h2{
     height: relative;
