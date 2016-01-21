@@ -19,10 +19,9 @@ h2{
 
     background: linear-gradient(to bottom right, teal , pink); /* Standard syntax (must be last) */
 }
-h1:hover {+
+h1:hover {
   
-  
-    width: 300px;
+     width: 300px;
     height: 300px;
     transform: rotate(360deg);
     transition:width 2s, height 2s, transform 1s;
