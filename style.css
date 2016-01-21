@@ -4,12 +4,20 @@ h1{
     line-height: 1.5;
     color: #CCCCFF;
     text-shadow: 8px 8px teal;
+     height: relative;
+    background: teal; /* For browsers that do not support gradients */    
+
+    background: linear-gradient(to bottom right, teal , pink); /* Standard syntax (must be last) */
 
 }
 h2{
     font-family:'Federant',cursive;
     color:pink;
     letter-spacing:;
+     height: relative;
+    background: teal; /* For browsers that do not support gradients */    
+
+    background: linear-gradient(to bottom right, teal , pink); /* Standard syntax (must be last) */
 }
 h1:hover {
   
@@ -27,16 +35,28 @@ div{
     border: 8px solid #CCCCFF;
     transform: skew(5deg, 4deg);
 }
-h1, h2{
-    height: relative;
-    background: teal; /* For browsers that do not support gradients */    
-
-    background: linear-gradient(to bottom right, teal , pink); /* Standard syntax (must be last) */
+   
 }
 h3{
   font-family:'Federant',cursive;
-  width:400px;
-  height:240px;
   background-color:gray;
   border:8px solid #CCCCFF;
 }
+
+
+.thicker {
+  font-weight:bold;
+    width: 300px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes example { 
+    0%   {background-color:pink; left:0px; top:0px;}
+    25%  {background-color:#CB1C0; left:200px; top:0px;}
+    50%  {background-color:#6C7BC0; left:200px; top:200px;}
+    75%  {background-color:#6CB1C0; left:0px; top:200px;}
+    100% {background-color:pink; left:0px; top:0px;}
