@@ -75,3 +75,8 @@ h3 {
         top: 0px;
     }
 }
+
+html { 
+  background: url(mcmc.jpg) no-repeat center fixed; 
+  background-size: cover;
+}
