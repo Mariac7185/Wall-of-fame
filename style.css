@@ -1,47 +1,44 @@
-h1{
-    font-family: 'Federant',cursive;
-    font-size:80px;
+h1 {
+    font-family: 'Federant', cursive;
+    font-size: 80px;
     line-height: 1.5;
     color: #CCCCFF;
     text-shadow: 8px 8px teal;
     height: relative;
-    background: teal; /* For browsers that do not support gradients */    
-
-    background: linear-gradient(to bottom right, teal , pink); /* Standard syntax (must be last) */
-
+    background: teal;
+    background: linear-gradient(to bottom right, teal, pink);
 }
-h2{
-    font-family:'Federant',cursive;
-    color:pink;
-    letter-spacing:2px;
+
+h2 {
+    font-family: 'Federant', cursive;
+    color: pink;
+    letter-spacing: 2px;
     height: relative;
-    background: teal; /* For browsers that do not support gradients */    
-
-    background: linear-gradient(to bottom right, teal , pink); /* Standard syntax (must be last) */
+    background: teal;
+    background: linear-gradient(to bottom right, teal, pink);
 }
+
 h1:hover {
-  
-     width: 300px;
+    width: 300px;
     height: 300px;
     transform: rotate(360deg);
-    transition:width 2s, height 2s, transform 1s;
+    transition: width 2s, height 2s, transform 1s;
 }
 
-div{
+div {
     background-color: Gray;
     border: 8px solid #CCCCFF;
-    transform: skew(5deg, 3deg);
+    transform: skew(5deg, 4deg);
 }
 
-
-
-h3{
-  font-family:'Federant',cursive;
-  background-color:gray;
-  border:8px solid #CCCCFF;
+h3 {
+    font-family: 'Federant', cursive;
+    background-color: gray;
+    border: 8px solid #CCCCFF;
 }
+
 .thicker {
-  font-weight:bold;
+    font-weight: bold;
     width: 300px;
     height: 100px;
     background-color: red;
@@ -51,10 +48,30 @@ h3{
     animation-iteration-count: infinite;
 }
 
-@keyframes example { 
-    0%   {background-color:pink; left:0px; top:0px;}
-    25%  {background-color:#CB1C0; left:200px; top:0px;}
-    50%  {background-color:#6C7BC0; left:200px; top:200px;}
-    75%  {background-color:#6CB1C0; left:0px; top:200px;}
-    100% {background-color:pink; left:0px; top:0px;}
+@keyframes example {
+    0% {
+        background-color: pink;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        background-color: #CB1C0;
+        left: 200px;
+        top: 0px;
+    }
+    50% {
+        background-color: #6C7BC0;
+        left: 200px;
+        top: 200px;
+    }
+    75% {
+        background-color: #6CB1C0;
+        left: 0px;
+        top: 200px;
+    }
+    100% {
+        background-color: pink;
+        left: 0px;
+        top: 0px;
+    }
 }
