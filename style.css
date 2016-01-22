@@ -28,7 +28,7 @@ h1:hover {
 div {
     background-color: Gray;
     border: 8px solid #CCCCFF;
-    transform: skew(5deg, 4deg);
+    transform: skew(6deg, 1deg);
 }
 
 h3 {
@@ -77,6 +77,7 @@ h3 {
 }
 
 html { 
-  background: url(mcmc.jpg) no-repeat center fixed; 
+  background: url(blueh.jpg), url(mcmc.jpg); 
+  background-position: no-repeat center fixed, left bottom;
   background-size: cover;
 }
